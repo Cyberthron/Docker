@@ -25,9 +25,9 @@ A command line interface (CLI) client docker.<br>
 **4.Set up the stable repository**
 
     sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
-   stable"
+    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    $(lsb_release -cs) \
+    stable"
    
 **INSTALL DOCKER ENGINE**
 
@@ -36,4 +36,4 @@ A command line interface (CLI) client docker.<br>
     
 **Run an Image Hello_World!**
 
-   sudo docker run hello-world
+    sudo docker run hello-world
