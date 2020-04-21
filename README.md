@@ -6,7 +6,7 @@ A command line interface (CLI) client docker.<br>
 
 ## Install Docker On Ubantu
 
-**1.Update the apt package index **
+**1.Update the apt package index**
  
    ```  sudo apt update```
    
