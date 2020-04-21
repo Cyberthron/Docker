@@ -71,6 +71,12 @@ A command line interface (CLI) client docker.<br>
 **Run the container**
      
        docker run helloworldapp
+       
+       
+# Run a python app with docker compose
+
+     Working on it 
+ 
      
 # Resources
 
