@@ -18,3 +18,22 @@ A command line interface (CLI) client docker.<br>
     curl \
     gnupg-agent \
     software-properties-common`
+    
+**3.Add Docker’s official GPG key:**
+
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+**4.Set up the stable repository**
+
+    sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+   
+**INSTALL DOCKER ENGINE**
+
+    sudo apt-get update
+    sudo apt-get install docker-ce docker-ce-cli containerd.io
+    
+**Run an Image Hello_World!**
+
+   sudo docker run hello-world
