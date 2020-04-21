@@ -51,6 +51,37 @@ A command line interface (CLI) client docker.<br>
        print("Hello_World!")
        
    **Create a Docker file**   
+      
+       FROM python
+       
+       WORKDIR /home/ro/workingdir
+
+       COPY requirements.txt ./
+       
+       RUN pip install -r requirements.txt
+
+       COPY . . 
+
+       CMD ["python", "app.py"]
+       
+**Building the Image using DockerFile**
+
+       docker build -t helloworldapp .
+       
+**Run the container**
+     
+       docker run helloworldapp
+     
+# Resources
+
+  **For Installation**
+  
+      https://docs.docker.com/engine/install/ubuntu/
+      
+  **Concepts**
+  
+      https://docs.docker.com/
+       
    
       
       
