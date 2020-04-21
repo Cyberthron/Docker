@@ -9,4 +9,9 @@ A command line interface (CLI) client docker.<br>
  
   ```  sudo apt update```
   
-  ## Working on
+   ``` sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common```
