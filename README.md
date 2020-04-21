@@ -5,7 +5,7 @@ APIs which specify interfaces that programs can use to talk to and instruct the 
 A command line interface (CLI) client docker.<br>
 
 ## Install Docker On Ubantu
-**First, update your existing list of packages:**
+**Update the apt package index and install packages to allow apt to use a repository over HTTPS:**
  
   ```  sudo apt update```
   
