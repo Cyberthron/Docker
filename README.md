@@ -12,9 +12,9 @@ A command line interface (CLI) client docker.<br>
    
 **2.Install packages to allow apt to use a repository over HTTPS:**  
    
-   ```  sudo apt-get install \
+   `sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
     gnupg-agent \
-    software-properties-common```
+    software-properties-common`
