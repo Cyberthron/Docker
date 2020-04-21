@@ -37,3 +37,11 @@ A command line interface (CLI) client docker.<br>
 **Run an Image Hello_World!**
 
     sudo docker run hello-world
+    
+# Docker Container and Image
+
+   <p>Docker container is a running instance of an image. You can use Command Line Interface (CLI) commands to run, start, stop, move, or delete a container. You can also provide configuration for the network and environment variables. Docker container is an isolated and secure application platform, but it can share and access to resources running in a different host or container.</p>
+   
+   <p>An image is a read-only template with instructions for creating a Docker container. A docker image is described in text file called a Dockerfile, which has a simple, well-defined syntax. An image does not have states and never changes. Docker Engine provides the core Docker technology that enables images and containers.</p>
+
+
