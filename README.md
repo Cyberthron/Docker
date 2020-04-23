@@ -75,7 +75,9 @@ A command line interface (CLI) client docker.<br>
        
 # Run a python app with docker compose
 
-     Working on it 
+  **Create a Docker_Compose.yaml
+  
+     
  
      
 # Resources
