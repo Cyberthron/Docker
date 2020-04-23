@@ -75,10 +75,26 @@ A command line interface (CLI) client docker.<br>
        
 # Run a python app with docker compose
 
-  **Create a Docker_Compose.yaml
+  **Create a Docker_Compose.yaml**
   
-     
- 
+    version: '2' 
+
+    services:
+      app:
+        restart: always
+        build: 
+          context: .
+          dockerfile: Dockerfile
+        ports:
+          - "5000"
+        volumes:
+          - .:/app
+        depends_on:
+          - redis
+
+      redis:
+        image: redis
+  
      
 # Resources
 
