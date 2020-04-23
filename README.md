@@ -73,7 +73,26 @@ A command line interface (CLI) client docker.<br>
        docker run helloworldapp
        
        
-# Run a python app with docker compose
+#Setup Docker-Compose and run a python app with docker compose
+
+ **Docker Compose**
+ 
+    <p> Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.</p?
+    
+ **Install Docker Compose on Ubantu**
+  
+  1.Run this command to download the current stable release of Docker Compose:
+     
+      sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
+  2.Apply executable permissions to the binary:
+   
+     sudo chmod +x /usr/local/bin/docker-compose
+     
+  3.Then we’ll verify that the installation was successful by checking the version:
+  
+     docker-compose --version
+
 
   **Create a Docker_Compose.yaml**
   
